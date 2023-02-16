@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
-*Main funcion entry
+* main - program funcion entry
+* Return: 0 (success)
 */
 int main(void)
 {

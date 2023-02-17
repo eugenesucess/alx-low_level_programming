@@ -13,6 +13,5 @@ int main(void) /* main function*/
     
     for (a = 'a'; a <= 'f'; a++)
     putchar(a);
-    putchar("\n");
 return (0);
 }

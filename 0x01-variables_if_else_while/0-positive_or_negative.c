@@ -12,14 +12,22 @@ int main() {
     n=rand() - RAND_MAX /2;
 	if(n > 0)
 	{
-	   printf("You entered: %d", n);
-		printf("%d is positive\n", n);
+		if(n != 98){
+			n =98;
+
+			printf("%d is positive\n", n);
+		}
 	}
 	else if(n == 0)
 	{
-		printf("%d is zero\n", n);
+		if(n !=0){
+			n=0;
+			
+			printf("%d is zero\n", n);
+		}
 	}
 	else{
+		n = -98;
 		printf("%d is negative\n", n);
 	}
     return 0;

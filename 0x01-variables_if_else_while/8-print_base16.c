@@ -10,7 +10,6 @@ int main(void) /* main function*/
     char a;
     for (i = '0'; i<= '9'; i++)
     putchar(i);
-    putchar("\n");
     
     for (a = 'a'; a <= 'f'; a++)
     putchar(a);

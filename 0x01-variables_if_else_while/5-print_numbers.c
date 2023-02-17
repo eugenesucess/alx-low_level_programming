@@ -4,9 +4,9 @@
 
 int main(void) /* main function*/
 {
-    int a;
-    for (a = 0; a<10; a++)
-        printf("%d \n", a);
-
+    int i;
+    for (i = 0; i<10; i++)
+        printf("%d", i);
+	printf("\n");
 	return (0);
 }

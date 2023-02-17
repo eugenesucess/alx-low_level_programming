@@ -5,11 +5,11 @@
 int main(void) /* main function*/
 {
 	char a;
+	
 	for (a = 'a'; a <= 'z'; a++)
 	{
-	if ( a == 'e' || a == 'q'){
-	    continue; 
-	}
+		if ( a == 'e' || a == 'q')
+	    		continue;
 	putchar(a);
 	}
 	putchar('\n');

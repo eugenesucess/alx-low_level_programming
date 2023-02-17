@@ -24,6 +24,7 @@ for(d = '0'; d< '9'; d++)
                 continue;
                 putchar(',');
                 putchar(' ');
+                putchar("\n");
             }
         }
     }

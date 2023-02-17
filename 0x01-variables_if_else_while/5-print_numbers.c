@@ -6,7 +6,8 @@
  */
 int main(void) /* main function*/
 {
-    for (int a = 0; a<10; a++)
+    int a;
+    for (a = 0; a<10; a++)
         printf("%d \n", a);
 
 	return (0);

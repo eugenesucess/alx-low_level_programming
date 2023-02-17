@@ -5,7 +5,7 @@
 * main - Prints the alphabet
 *return : 0 success
 */
-int main(void)
+int main(void) /* main function of program*/
 {
 	char a;
 

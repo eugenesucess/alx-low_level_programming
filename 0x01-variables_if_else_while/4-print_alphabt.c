@@ -6,6 +6,7 @@ int main(void) /* main function*/
 {
 	char a, e, q;
 	e = 'e';
+	
 	q = 'q';
 	for (a = 'a'; a <= 'z'; a++)
 	{

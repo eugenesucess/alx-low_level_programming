@@ -6,21 +6,23 @@
  */
 int main(void) /* main function*/
 {
-    int i,j;
-    for (i ='0';  i<= '9'; i++)
+
+int d,p;
+for(d = '0'; d< '9'; d++)
+{
+    for (p = d + 1; p <= '9'; p++)
     {
-        for (j = i+1; i<= '9'; j++)
-        {
-            if(j != i)
+            if (p != d)
             {
-                putchar(i);
-                putchar(j);
-                if(j == '8' && j == '9')
+                putchar(d);
+                putchar(p);
+                if(d == '7' && p == '8')
                 continue;
                 putchar(',');
                 putchar(' ');
             }
-        }
+        
     }
+}
 return (0);
 }

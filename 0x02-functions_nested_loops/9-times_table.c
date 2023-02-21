@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * times_table - prints table
- * return - void 
+ * return - void
  *
  */
 
 void times_table()
 {
-int w,x, y;
+int w, x, y;
 
 	for (x = 0; x <= 9; x++)
 	{

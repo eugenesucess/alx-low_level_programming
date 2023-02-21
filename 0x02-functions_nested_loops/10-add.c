@@ -1,13 +1,15 @@
 #include "main.h"
 
 /**
- * int add(int, int) : return answer
- * return integer
+ * add : makes addition
+ * Return: integer
+ * num1 : parameter
+ * num2 : parameter
  */
 
-int add(int num1, int num2)
+int add(int num1, int num2)/* add returns integer*/
 {
-	int sum = num1+ num2;
+	int sum = num1 + num2;
 
 	return (sum);
 }

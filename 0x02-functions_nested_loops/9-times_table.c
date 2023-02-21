@@ -7,7 +7,7 @@
 
 void times_table()
 {
-int w,x, y, z;
+int w,x, y;
 
 	for (x = 0; x <= 9; x++)
 	{

@@ -5,21 +5,17 @@
  */
  
 int main() {
-    int i, sum = 0;
+    int i; 
+    int sum = 0;
     
-    for (i =0; i <1024; i++)
+    for(i=0;i<=1024;i++)
     {
-        if( !(i % 3 == 0))
+        if((i%5==0)||(i%3==0))
         {
-            continue;
+            sum=sum+i;
         }
-        if(!(i % 5 ==0))
-        {
-            continue;
-        }
-        sum += i;
     }
-    printf("%d\n", sum);
+    printf("%d\n",sum);
     
     return 0;
 }

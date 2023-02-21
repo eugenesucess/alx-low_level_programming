@@ -3,8 +3,7 @@
  * main - entry of program
  * return 0 (success)
  */
- 
-int main() {
+int main() { /* main function*/
     int initial = 0;
     int n1 = 0, n2 = 1;
     int nx = n1 + n2;

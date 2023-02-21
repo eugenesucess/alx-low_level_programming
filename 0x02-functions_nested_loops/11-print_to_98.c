@@ -12,7 +12,10 @@
 	    int i=0;
         if(n>98)
         {
-            printf("\n");
+		for ( i = n; i>=98; i--)
+		{
+			printf("%d", i);
+		}
         }
 
         for ( i = n; i<= 98; i++)

@@ -2,9 +2,9 @@
 /**
  * print_times_table - main function
  * return void
- *
+ * n: integer
  */
-void print_times_table(int n) /* n: parameter*/
+void print_times_table(int n)
 {
 	int num, mult, prod;
 

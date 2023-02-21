@@ -1,14 +1,13 @@
 #include "main.h"
-
 /**
  * int _abs : make an absolute value of number
- * return the value as absolute
- *
+ * return: integer
+ * r: parameter
  */
 
-int _abs(int r)
+int _abs(int r)/* _abs returns integer*/
 {
-	if( r<0 )
+	if(r < 0)
 	{
 		return (r * (-1));
 	}

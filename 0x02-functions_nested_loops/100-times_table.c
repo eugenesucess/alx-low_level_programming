@@ -4,7 +4,7 @@
  * return void
  *
  */
-void print_times_table(int n)
+void print_times_table(int n) /* n: parameter*/
 {
 	int num, mult, prod;
 

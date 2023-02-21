@@ -6,21 +6,38 @@
  * return : void
  *
  */
-
 void print_to_98(int n)
-	{
-		int i=0;
-		if(n>98)
-		{
-			for ( i = n; i>=98; i--)
-			{
-			printf("%d, ", i);
-			}
-        	}
-
-        for ( i = n; i<= 98; i++)
+{
+    if (n <= 98)
+    {
+        for (; n<= 98; n++)
         {
-		printf("%d, ", i);
+            if (n == 98)
+            {
+                printf("%d", n);
+                printf("\n");
+                break;
+            }
+            else
+            {
+                printf("%d, ", n);
+            }
         }
-        printf("\n");
     }
+    else
+    {
+        for (; n >= 98; n--)
+        {
+            if (n == 98)
+            {
+                printf("%d", n);
+                printf("\n");
+                break;
+            }
+            else
+            {
+                    printf("%d, ", n);
+            }
+        }
+    }
+}

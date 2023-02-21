@@ -4,18 +4,19 @@
  * return 0 (success)
  */
  
-int main() {
+int main(void) /* main function of program*/
+{
     int i; 
     int sum = 0;
     
-    for(i=0;i<=1024;i++)
+    for (i = 0; i <= 1024; i++)
     {
-        if((i%5==0)||(i%3==0))
+        if ((i % 5 == 0) || (i % 3 == 0))
         {
-            sum=sum+i;
+            sum = sum + i;
         }
     }
-    printf("%d\n",sum);
+    printf("%d\n", sum);
     
     return 0;
 }

@@ -2,7 +2,7 @@
 
 /**
  * _isalpha : check if there is no symbol
- *  return : 1 if ok 0 if not
+ *  Return : integer
  */
 
 int _isalpha(int c)

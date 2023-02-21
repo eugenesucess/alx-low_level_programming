@@ -5,7 +5,7 @@
  *
  */
 
-void times_table()
+void times_table(void)
 {
 int w, x, y;
 

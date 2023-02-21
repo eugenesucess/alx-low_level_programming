@@ -7,33 +7,38 @@
 
 void times_table()
 {
-	int x, y, z, u, d;
+	int num, mult, prod;
 
-	for (x=0; x<= 9; x++)
+	if (n >= 0 && n <= 15)
 	{
-		for ( y=0; y<=9; y++)
+		for (num = 0; num <= n; num++)
 		{
-			z = x =y;
-			if (z >9)
+			_putchar('0');
+
+			for (mult = 1; mult <= n; mult++)
 			{
-				u = z % 110;
-				d = (z - u) /10;
-				_putchar(44);
-				_putchar(32);
-				_putchar(d+ '0');
-				_putchar(u+'0');
-			}
-			else
-			{
-				if(y !=0)
+				_putchar(',');
+				_putchar(' ');
+
+				prod = num * mult;
+
+				if (prod <= 99)
+					_putchar(' ');
+				if (prod <= 9)
+					_putchar(' ');
+
+				if (prod >= 100)
 				{
-					_putchar(64);
-					_putchar(32);
-					_putchar(32);
+					_putchar((prod / 100) + '0');
+					_putchar(((prod / 10)) % 10 + '0');
 				}
-				_putchar(z+'0');
+				else if (prod <= 99 && prod >= 10)
+				{
+					_putchar((prod / 10) + '0');
+				}
+				_putchar((prod % 10) + '0');
 			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }

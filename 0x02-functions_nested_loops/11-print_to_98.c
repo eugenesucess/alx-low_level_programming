@@ -4,15 +4,15 @@
 /**
  * void print_to_98 - print natural number
  * return : void
- *
+ * n : parameter
  */
-void print_to_98(int n)
+void print_to_98(int n) /* print_to_98 return void*/
 {
-    if (n <= 98)
+    if(n <= 98)
     {
-        for (; n<= 98; n++)
+        for(; n <= 98; n++)
         {
-            if (n == 98)
+            if(n == 98)
             {
                 printf("%d", n);
                 printf("\n");

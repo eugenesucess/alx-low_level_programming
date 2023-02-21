@@ -7,7 +7,7 @@
 
 int _abs(int r)/* _abs returns integer*/
 {
-	if(r < 0)
+	if (r < 0)
 	{
 		return (r * (-1));
 	}

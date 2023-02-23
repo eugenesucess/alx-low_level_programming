@@ -30,7 +30,7 @@ int main(void)
 			putchar(' ');
 			continue;
 		}
-		prinft("%d ", start);
+		printf("%d ", start);
 	}
 	return (0);
 }

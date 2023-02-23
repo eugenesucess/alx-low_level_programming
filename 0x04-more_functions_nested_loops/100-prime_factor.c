@@ -10,7 +10,7 @@ int main(void)
 {
   long i, maxNum;
   long num = 612852475143;
-  double sqr = sqrt(number);
+  double sqr = sqrt(num);
   
   for ( i = 1; i <= sqr; i++)
   {
@@ -19,6 +19,6 @@ int main(void)
       maxNum = num / i;
     }
   }
-  printf("%ld\n", maxn\Num);
+  printf("%ld\n", maxNum);
   return (0);
 }

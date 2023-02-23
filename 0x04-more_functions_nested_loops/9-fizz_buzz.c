@@ -31,7 +31,6 @@ int main(void)
 			continue;
 		}
 		prinft("%d ", start);
-		printf(" ");
 	}
 	return (0);
 }

@@ -1,6 +1,5 @@
 #include "main.h"
-
-int mul(int a, int b)/* mul : function to calculate*/
+int mul(int a, int b)
 {
 	int sum;
 

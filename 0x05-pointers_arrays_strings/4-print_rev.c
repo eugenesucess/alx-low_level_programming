@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * void print_rev : print_rev
  * return:void

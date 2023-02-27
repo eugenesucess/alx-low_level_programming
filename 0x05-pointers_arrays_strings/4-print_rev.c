@@ -18,4 +18,5 @@ void print_rev(char *s)
 		char *temp = &s[count];
 		putchar(*temp);
 	}
+	_putchar('\n');
 }

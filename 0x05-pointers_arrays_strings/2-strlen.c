@@ -9,10 +9,10 @@
 int _strlen(char *c)
 {
 	int len = 0;
-	
+
 	while (*c++)
 	{
 		len++;
 	}
-	return len;
+	return(len);
 }

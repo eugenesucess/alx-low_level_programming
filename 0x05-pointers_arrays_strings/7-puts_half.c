@@ -11,6 +11,6 @@ void puts_half(char *str)
     }
     for (j = len; j < len + len; j++)
     {
-	printf("%d",j);
+	printf("%d",str[j]);
     }
 }

@@ -4,13 +4,13 @@
 void puts_half(char *str)
 {
     int i, len, j;
-
-    for (i = 0; str[i] != '\0'; ++i)
+    
+    for (i = 0; str[i] != '\0'; ++i);
     {
         len =  i /2;
     }
     for (j = len; j < len + len; j++)
     {
-	putchar(str[j]);
+        putchar(str[j]);
     }
 }

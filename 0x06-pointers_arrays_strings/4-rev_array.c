@@ -25,9 +25,9 @@ void reverse_array(int *a, int n)
 	{
 		if (i > k + 1)
 		{
-			printf(", ");
+			_putchar(", ");
 		}
-		printf("%d", a[k]);
+		_putchar("%d", a[k]);
 	}
-	printf("\n");
+	_putchar("\n");
 }

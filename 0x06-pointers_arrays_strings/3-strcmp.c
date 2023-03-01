@@ -4,7 +4,7 @@
 /**
  * _strcmp -> compares string
  * @s1: param1
- * @s2param2
+ * @s2: param2
  * Return: integer
  */
 

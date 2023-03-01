@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 #include <string.h>
 
 /**
@@ -25,9 +26,9 @@ void reverse_array(int *a, int n)
 	{
 		if (i > k + 1)
 		{
-			_putchar(", ");
+			printf(", ");
 		}
-		_putchar("%d", a[k]);
+		printf("%d", a[k]);
 	}
-	_putchar("\n");
+	printf("\n");
 }

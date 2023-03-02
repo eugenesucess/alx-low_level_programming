@@ -1,13 +1,5 @@
 #include <stdio.h>
 
-/**
- * main -> entry of program
- * @n: destination of pointer
- * @p: pointer to n
- * @a: array of numers
- * Return: 0 always success
- */
-
 int main(void)
 {
   int n;

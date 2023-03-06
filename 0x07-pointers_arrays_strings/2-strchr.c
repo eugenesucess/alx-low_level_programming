@@ -10,6 +10,7 @@
 
 char *_strchr(char *s, char c)
 {
-    strchr(s, c);
-    return (s);
+    char *rs;
+    rs = strchr(s, c);
+    return (rs);
 }

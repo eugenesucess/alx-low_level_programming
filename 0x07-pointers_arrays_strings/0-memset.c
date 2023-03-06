@@ -1,3 +1,6 @@
+#include "main.h"
+#include <string.h>
+
 /**
  * _memset -> copies a certain number of char
  * @s: target string

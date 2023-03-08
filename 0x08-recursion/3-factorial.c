@@ -6,7 +6,7 @@
  * Return: integer
  */
 int factorial(int n)
-i{
+{
 	if (n == 0 || n == 1)
 	{
 		return (n);

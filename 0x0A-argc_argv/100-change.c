@@ -14,15 +14,12 @@ int main(int argc,char *argv[])
 	
 	int coins=0;
 
-		printf("%s\n", argv[2]);
-
 	if (argc < 2)
 	{
 		printf("%s\n", "Error");
 		return (1);
 	}
-/*
-	
+
 	while (conv > 0)
 	{
 		coins++;
@@ -50,6 +47,6 @@ int main(int argc,char *argv[])
 		conv--;
 	}
 	printf("%d\n", coins);
-*/
+
 	return (0);
 }

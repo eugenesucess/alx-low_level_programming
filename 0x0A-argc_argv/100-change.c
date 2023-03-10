@@ -7,7 +7,7 @@ int main(int argc,char *argv[])
 	coins = 0;
 	conv = atoi(argv[argc]);
  
-	if (argc != 2)
+	if (argc < 2)
 	{
 		printf("%s\n", "Error");
 		return (1);

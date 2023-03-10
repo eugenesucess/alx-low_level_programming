@@ -5,9 +5,10 @@ int main(int argc,char *argv[])
 {
 	int coins, conv;
 	coins = 0;
+	argc = 1;
 	conv = atoi(argv[argc]);
  
-	if (argc < 2)
+	if (argc != 2)
 	{
 		printf("%s\n", "Error");
 		return (1);

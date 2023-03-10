@@ -6,7 +6,8 @@
  *   * @argc: program counts
  *    * @argv: array of arguments
  *     * Return: integer
- *      */
+ */
+
 int main(int argc, char *argv[])
 {
 	int i, sum = 0;
@@ -21,7 +22,7 @@ int main(int argc, char *argv[])
 		{
 			if (!(atoi(argv[i])))
 			{
-				printf("%s\n","Error");
+				printf("%s\n", "Error");
 				return (1);
 			}
 			sum += atoi(argv[i]);

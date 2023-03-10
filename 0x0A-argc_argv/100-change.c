@@ -3,7 +3,16 @@
 
 int main(int argc,char *argv[])
 {
-/*	int coins=0; */
+	
+    argc = 1;
+    int conv = atoi(argv[argc]);
+    
+    if(conv < 0)
+    {
+        printf("%d\n", 12);
+    }
+	
+	int coins=0;
 
 		printf("%s\n", argv[2]);
 
@@ -14,31 +23,31 @@ int main(int argc,char *argv[])
 	}
 /*
 	
-	while (cents > 0)
+	while (conv > 0)
 	{
 		coins++;
 
-		if (cents - 25 >= 0)
+		if (conv - 25 >= 0)
 		{
-			cents = cents - 25;
+			conv = conv - 25;
 			continue;
 		}
-		if (cents - 10 >= 0)
+		if (conv - 10 >= 0)
 		{
-			cents = cents - 10;
+			conv = conv - 10;
 			continue;
 		}
 		if (cents - 5 >= 0)
 		{
-			cents =  cents - 5;
+			cents =  conv - 5;
 			continue;
 		}
 		if (cents - 2 >= 0)
 		{
-			cents -= 2;
+			conv -= 2;
 			continue;
 		}
-		cents--;
+		conv--;
 	}
 	printf("%d\n", coins);
 */

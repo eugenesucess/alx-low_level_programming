@@ -4,16 +4,10 @@
 int main(int argc,char *argv[])
 {
 	int coins, conv;
-    argc = 1;
-    coins = 0;
-    conv = atoi(argv[argc]);
-    
-    if(conv < 0)
-    {
-        printf("%d\n", 12);
-    }
-
-	if (argc < 2)
+	coins = 0;
+	conv = atoi(argv[argc]);
+ 
+	if (argc != 2)
 	{
 		printf("%s\n", "Error");
 		return (1);

@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
  * _strdup -> duplicate string
  * @str: string to be duplicated
@@ -9,7 +9,7 @@
 char *_strdup(char *str)
 {
 	int size = 0;
-	char *ptr, *rs;
+	char *rs;
 
 	if (str == NULL)
 	{

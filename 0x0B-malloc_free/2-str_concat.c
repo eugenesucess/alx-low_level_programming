@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
  * str_concat -> return cononcanated strngs
  * @s1: param1

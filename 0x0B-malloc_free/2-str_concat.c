@@ -13,14 +13,31 @@ char *str_concat(char *s1, char *s2)
 	char *ptr, *rs;
 
 	ptr = s1;
-	while (*ptr++)
+	if (s1)
 	{
-		sz1++;
+		while (*ptr++)
+		{
+			sz1++;
+		}
+	}
+	else
+	{
+		s1 = "";
 	}
 
-	while (*ptr++)
+	if (s2)
 	{
-		sz2++;
+		while (*ptr++)
+		{
+			if (s2 == NULL)
+				return (NULL);
+			sz2++;
+		}
+	}
+	
+	else
+	{
+		s2 = "";
 	}
 
 	rs = malloc(sz1 + sz2 + 1);
